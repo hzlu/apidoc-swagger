@@ -31,11 +31,13 @@
   },
   "dependencies": {
     "apidoc-core": "0.11.0",
+    "apidoc-plugin-schema": "0.1.8",
     "fs-extra": "^8.1.0",
     "lodash": "^4.17.15",
     "markdown-it": "^10.0.0",
     "nomnom": "^1.8.1",
     "path-to-regexp": "^1.2.0",
+    "typescript-json-schema": "0.50.0",
     "winston": "^0.9.0"
   },
   "devDependencies": {

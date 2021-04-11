@@ -23,7 +23,7 @@ var argv = nomnom
 
     .option('input', { abbr: 'i', 'default': './', help: 'Input / source dirname.' })
 
-    .option('output', { abbr: 'o', 'default': './doc/', help: 'Output dirname.' })    
+    .option('output', { abbr: 'o', 'default': './doc/', help: 'Output dirname.' })
 
     .option('verbose', { abbr: 'v', flag: true, 'default': false, help: 'Verbose debug output.' })
 
