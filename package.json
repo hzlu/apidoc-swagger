@@ -1,21 +1,21 @@
 {
-  "name": "apidoc-swagger",
-  "version": "0.3.2",
+  "name": "hscloud-apidoc-swagger",
+  "version": "0.4.2",
   "description": "Convert api doc json to swagger json",
-  "author": "Bahman Fakhr Sabahi",
+  "author": "华思测控",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/fsbahman/apidoc-swagger/blob/master/README.md/LICENSE"
+    "url": "https://github.com/hzlu/apidoc-swagger/blob/master/README.md/LICENSE"
   },
   "preferGlobal": true,
   "bin": "bin/apidocSwagger.js",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fsbahman/apidoc-swagger.git"
+    "url": "https://github.com/hzlu/apidoc-swagger.git"
   },
   "bugs": {
-    "url": "https://github.com/fsbahman/apidoc-swagger/issues"
+    "url": "https://github.com/hzlu/apidoc-swagger/issues"
   },
   "keywords": [
     "api",
@@ -27,13 +27,13 @@
     "swagger"
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 12.14.0"
   },
   "dependencies": {
     "apidoc-core": "0.11.0",
     "apidoc-plugin-schema": "0.1.8",
     "fs-extra": "^8.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "markdown-it": "^10.0.0",
     "nomnom": "^1.8.1",
     "path-to-regexp": "^1.2.0",

@@ -48,6 +48,9 @@ var argv = nomnom
     // markdown settings
     .option('markdown', { flag: true, 'default': true, help: 'Turn off markdown parser.' })
 
+    // tsconfig.json settings
+    .option('tsconfig', { 'default': './tsconfig.json', help: 'tsconfig.json文件路径' })
+
     .parse()
 ;
 
@@ -90,7 +93,8 @@ var options = {
     workers       : transformToObject(argv['parse-workers']),
     silent        : argv['silent'],
     simulate      : argv['simulate'],
-    markdown      : argv['markdown']
+    markdown      : argv['markdown'],
+    tsconfig      : argv['tsconfig'],
 };
 
 if (apidocSwagger.createApidocSwagger(options) === false) {
