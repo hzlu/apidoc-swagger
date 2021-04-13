@@ -1,6 +1,6 @@
 {
   "name": "hscloud-apidoc-swagger",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Convert api doc json to swagger json",
   "author": "华思测控",
   "license": {
